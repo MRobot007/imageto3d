@@ -3,7 +3,7 @@ import { ImageUpload } from "@/components/ImageUpload";
 import { ModelViewer } from "@/components/ModelViewer";
 import { Button } from "@/components/ui/button";
 import { useToast } from "@/hooks/use-toast";
-import { Sparkles, Loader2, Boxes } from "lucide-react";
+import { Sparkles, Loader2, Boxes, Download } from "lucide-react";
 
 const Index = () => {
   const [selectedImage, setSelectedImage] = useState<File | null>(null);
